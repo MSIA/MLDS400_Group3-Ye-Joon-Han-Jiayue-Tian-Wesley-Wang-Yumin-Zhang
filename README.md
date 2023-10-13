@@ -1,10 +1,10 @@
 **Updates: (Oct 8th-Oct 13th)**
 <br /> 
-<br />   * Created a GitHub repository accessible to four team members, a TA, and Professor Diego
+<br />  - Created a GitHub repository accessible to four team members, a TA, and Professor Diego
 <br /> 
-<br />   *	Installed pgAdmin, established a connection to the MLDS Postgres server, and conducted an initial exploration of the pgAdmin interface
+<br />  -	Installed pgAdmin, established a connection to the MLDS Postgres server, and conducted an initial exploration of the pgAdmin interface
 <br /> 
-<br />   *	Established the tables in PostgreSQL (deptinfo, skstinfo, strinfo) according to the database schema and provided access to all team members (Note: we faced issue importing the other two tables because of ambiguous column label and mismatch between the number of columns in the schema and the actual dataset.)
+<br />  *	Established the tables in PostgreSQL (deptinfo, skstinfo, strinfo) according to the database schema and provided access to all team members (Note: we faced issue importing the other two tables because of ambiguous column label and mismatch between the number of columns in the schema and the actual dataset.)
 <br /> 
 <br /> *	Summary Statistics:	Mean, Min, Max, SD of “COST”, “RETAIL” in table skstinfo
 <br /> 
