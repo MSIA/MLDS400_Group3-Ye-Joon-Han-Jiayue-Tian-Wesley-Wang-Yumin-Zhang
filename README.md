@@ -1,4 +1,4 @@
-Updates: (Oct 8th-Oct 13th)
+Updates: (Oct 8th-Oct 13th)\n
 ●	Created a GitHub repository accessible to four team members, a TA, and Professor Diego
 ●	Installed pgAdmin, established a connection to the MLDS Postgres server, and conducted an initial exploration of the pgAdmin interface
 ●	Established the tables in PostgreSQL (deptinfo, skstinfo, strinfo) according to the database schema and provided access to all team members (Note: we faced issue importing the other two tables because of ambiguous column label and mismatch between the number of columns in the schema and the actual dataset.)
