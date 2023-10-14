@@ -10,10 +10,13 @@ Summary Statistics (more):
 *	In particular, the last (undeclared) column of each table has columns of 0 and 1. 
 *	Total 787669 distinct SKU inside the skuinfo table. 
 *	Shown the Top 5 Most Profitable Stock Items, sum(retail) - sum(cost)
-<img width="203" alt="image" src="https://github.com/MSIA/MLDS400_Group3-Ye-Joon-Han-Jiayue-Tian-Wesley-Wang-Yumin-Zhang/assets/145531369/2631a4a2-485d-4148-a752-9545d954b0f9">
+
+![image](https://github.com/MSIA/MLDS400_Group3-Ye-Joon-Han-Jiayue-Tian-Wesley-Wang-Yumin-Zhang/assets/145066585/da7b89f8-82ac-4d4e-9496-c234948de2f8)
 
 *	Figured the Top 5 busiest store in the US (based on counting the number of stock item)
-<img width="327" alt="image" src="https://github.com/MSIA/MLDS400_Group3-Ye-Joon-Han-Jiayue-Tian-Wesley-Wang-Yumin-Zhang/assets/145531369/6ff399d1-6d86-43e0-9f33-d879f49b4bf6">
+
+![image](https://github.com/MSIA/MLDS400_Group3-Ye-Joon-Han-Jiayue-Tian-Wesley-Wang-Yumin-Zhang/assets/145066585/ad6286ac-5d86-4d60-b7b7-748b5579d460)
+
 
 **Next Steps: (Oct 16th-Oct 21st)**
 
