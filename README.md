@@ -18,12 +18,12 @@ Summary Statistics (more):
 ![image](https://github.com/MSIA/MLDS400_Group3-Ye-Joon-Han-Jiayue-Tian-Wesley-Wang-Yumin-Zhang/assets/145066585/ad6286ac-5d86-4d60-b7b7-748b5579d460)
 
 
-**Next Steps: (Oct 16th-Oct 22nt)**
+**Next Steps: (Oct 16th-Oct 22nd)**
 
 * Understand, clean, and import the other two tables (skuinfo, trnsact) into PostgreSQL
 *	Explore data and the table relationship and do some EDA
 
-**Updates: (Oct 16th-Oct 22nt)**:
+**Updates: (Oct 16th-Oct 22nd)**:
 * Completed cleaning the trnsact table for uploading purposes
     * Changed column names based on the column description
     * Removed duplicate rows to avoid duplicates in primary keys
