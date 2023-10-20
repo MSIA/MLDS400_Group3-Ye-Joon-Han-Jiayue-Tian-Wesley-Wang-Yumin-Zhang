@@ -1,4 +1,4 @@
-**Updates: (Oct 8th-Oct 13th)**
+**Updates: (Oct 9th-Oct 15th)**
 
 * Created a GitHub repository accessible to four team members, a TA, and Professor Diego
 *	Installed pgAdmin, established a connection to the MLDS Postgres server, and conducted an initial exploration of the pgAdmin interface
@@ -18,8 +18,30 @@ Summary Statistics (more):
 ![image](https://github.com/MSIA/MLDS400_Group3-Ye-Joon-Han-Jiayue-Tian-Wesley-Wang-Yumin-Zhang/assets/145066585/ad6286ac-5d86-4d60-b7b7-748b5579d460)
 
 
-**Next Steps: (Oct 16th-Oct 21st)**
+**Next Steps: (Oct 16th-Oct 22nt)**
 
 * Understand, clean, and import the other two tables (skuinfo, trnsact) into PostgreSQL
 *	Explore data and the table relationship and do some EDA
+
+**Updates: (Oct 16th-Oct 22nt)**:
+* Completed cleaning the trnsact table for uploading purposes
+    * Changed column names based on the column description
+    * Removed duplicate rows to avoid duplicates in primary keys
+    * Removed the rows whose FK cannot be matched to the tables of PK
+* Finished cleaning the skuinfo table for uploading purposes 
+    * Removed final three columns due to their data being incomplete
+    * Removed the rows whose FK cannot be matched to the tables of PK
+
+[So far, we imported all raw tables into Postgre]
+
+* Cleaned the strinfo table by replacing an invalid value in the CITY column with NA 
+* Corrected data type and FK, PK for all tables
+
+
+**Next Steps: (Oct 23rd-Oct 29th)**:
+
+* Feature selection, focusing on removing variables of unknown significance
+* Querying out the subset of trnsact dataset to reduces the amount of data
+* Update cleaned strinfo table to postgreSQL
+
 
