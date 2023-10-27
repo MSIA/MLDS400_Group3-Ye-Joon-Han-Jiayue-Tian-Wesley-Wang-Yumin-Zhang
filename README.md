@@ -1,4 +1,4 @@
-**Updates: (Oct 9th-Oct 15th)**
+### **Updates (Oct 9th-Oct 13th)：**
 
 * Created a GitHub repository accessible to four team members, a TA, and Professor Diego
 *	Installed pgAdmin, established a connection to the MLDS Postgres server, and conducted an initial exploration of the pgAdmin interface
@@ -18,12 +18,14 @@ Summary Statistics (more):
 ![image](https://github.com/MSIA/MLDS400_Group3-Ye-Joon-Han-Jiayue-Tian-Wesley-Wang-Yumin-Zhang/assets/145066585/ad6286ac-5d86-4d60-b7b7-748b5579d460)
 
 
-**Next Steps: (Oct 16th-Oct 22nd)**
+### **Next Steps (Oct 14th-Oct 20th)：**
 
 * Understand, clean, and import the other two tables (skuinfo, trnsact) into PostgreSQL
 *	Explore data and the table relationship and do some EDA
 
-**Updates: (Oct 16th-Oct 22nd)**:
+---
+
+### **Updates (Oct 14th-Oct 20th)：**
 * Completed cleaning the trnsact table for uploading purposes
     * Changed column names based on the column description
     * Removed duplicate rows to avoid duplicates in primary keys
@@ -38,10 +40,26 @@ Summary Statistics (more):
 * Corrected data type and FK, PK for all tables
 
 
-**Next Steps: (Oct 23rd-Oct 29th)**:
+### **Next Steps (Oct 21st-Oct 27th)：**:
 
 * Feature selection, focusing on removing variables of unknown significance
 * Querying out the subset of trnsact dataset to reduces the amount of data
 * Update cleaned strinfo table to postgreSQL
+
+---
+
+### **Updates (Oct 21st-Oct 27th)：**:
+* Completed input table, including defining primary keys and foreign keys, reordering columns to better align with column definitions
+* Possible business problem (think about)
+    * **Sales Forecasting**: Use historical sales data (SKU, SALEDATE, QUANTITY) to build a time series model. This might help businesses optimize inventory management and reduce overstock or understock situations
+    * **Type of Transaction Prediction**: Use historical sales data to build a logistic regression to predict if the product will be returned (R) or not
+    * **Product Clustering**: Grouping similar products together based on shared characteristics, features, or attributes. This can be useful for developing an effective marketing strategy
+
+### **Next Steps (Oct 28th-Nov 3rd)**:
+
+* Define the business question and corresponding machine learning question through data examination
+* Feature selection, focusing on removing variables of unknown significance
+
+
 
 
