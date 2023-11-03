@@ -60,6 +60,22 @@ Summary Statistics (more):
 * Define the business question and corresponding machine learning question through data examination
 * Feature selection, focusing on removing variables of unknown significance
 
+---
+
+### **Updates Oct 28th-Nov 3rd)：**:
+* Imported and reduced trnsact data to a convenient size for analysis
+* Completed time-series EDA on trnsact
+    * Broke down SALEDATE into months and observe the total sales volume (AMT) for each month
+    * Observed the total number and percentage of items discounted each month of the year
+    * Shown figure about total income amount (AMT) of the transaction charge against time
+    * Found and made boxplot to display top 30 items with the most AMTs and top 30 with most sold items
+
+### **Next Steps (Nov 4th-Nov 11th)**:
+
+* Explore the possibility of linking trnsact to other datasets
+* Find variables with high correlation with return and model Type of Transaction Prediction
+
+
 
 
 
