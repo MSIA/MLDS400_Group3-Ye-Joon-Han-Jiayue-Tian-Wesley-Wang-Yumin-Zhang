@@ -72,8 +72,24 @@ Summary Statistics (more):
 
 ### **Next Steps (Nov 4th-Nov 11th)**:
 
-* Explore the possibility of linking trnsact to other datasets
+* Explore the possibility of linking trnsact to other dataset
 * Find variables with high correlation with return and model Type of Transaction Prediction
+
+---
+
+### **Updates Nov 3th-Nov 10rd)：**:
+* Using the Chi-squared test to test whether discounted items are associated with returns
+* Divided SALEDATE into year, month, and day to make it a better variable.
+* The independent variables are first standardized to reduce the effect of outliers to increase computational efficiency
+   * Trained Logistic Regression model . An Accuracy of almost 0.922 and an F-1 score of 0.959 are obtained to verify that each class is still relatively balanced.
+   * Trained Random Forest model with hyperparameters number of tree to be 10, 20 instead of default 100, both computing time and accuracy are acceptable
+
+### **Next Steps (Nov 11th-Nov 17th)**:
+
+* Explore the possibility of linking trnsact to other datasets to observe deeper secret based on the mode we built
+* Try clustering out product categories to explore more possibilities
+
+
 
 
 
