@@ -62,7 +62,7 @@ Summary Statistics (more):
 
 ---
 
-### **Updates Oct 28th-Nov 3rd)：**:
+### **Updates (Oct 28th-Nov 3rd)：**:
 * Imported and reduced trnsact data to a convenient size for analysis
 * Completed time-series EDA on trnsact
     * Broke down SALEDATE into months and observe the total sales volume (AMT) for each month
@@ -77,7 +77,7 @@ Summary Statistics (more):
 
 ---
 
-### **Updates Nov 4th-Nov 10rd)：**:
+### **Updates (Nov 4th-Nov 10rd)：**:
 * Using the Chi-squared test to test whether discounted items are associated with returns
 * Divided SALEDATE into year, month, and day to make it a better variable.
 * The independent variables are first standardized to reduce the effect of outliers to increase computational efficiency
