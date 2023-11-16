@@ -40,7 +40,7 @@ Summary Statistics (more):
 * Corrected data type and FK, PK for all tables
 
 
-### **Next Steps (Oct 21st-Oct 27th)：**:
+### **Next Steps (Oct 21st-Oct 27th)：**
 
 * Feature selection, focusing on removing variables of unknown significance
 * Querying out the subset of trnsact dataset to reduces the amount of data
@@ -48,21 +48,21 @@ Summary Statistics (more):
 
 ---
 
-### **Updates (Oct 21st-Oct 27th)：**:
+### **Updates (Oct 21st-Oct 27th)：**
 * Completed input table, including defining primary keys and foreign keys, reordering columns to better align with column definitions
 * Possible business problem (think about)
     * **Sales Forecasting**: Use historical sales data (SKU, SALEDATE, QUANTITY) to build a time series model. This might help businesses optimize inventory management and reduce overstock or understock situations
     * **Type of Transaction Prediction**: Use historical sales data to build a logistic regression to predict if the product will be returned (R) or not
     * **Product Clustering**: Grouping similar products together based on shared characteristics, features, or attributes. This can be useful for developing an effective marketing strategy
 
-### **Next Steps (Oct 28th-Nov 3rd)**:
+### **Next Steps (Oct 28th-Nov 3rd):**
 
 * Define the business question and corresponding machine learning question through data examination
 * Feature selection, focusing on removing variables of unknown significance
 
 ---
 
-### **Updates (Oct 28th-Nov 3rd)：**:
+### **Updates (Oct 28th-Nov 3rd)：**
 * Imported and reduced trnsact data to a convenient size for analysis
 * Completed time-series EDA on trnsact
     * Broke down SALEDATE into months and observe the total sales volume (AMT) for each month
@@ -70,28 +70,28 @@ Summary Statistics (more):
     * Shown figure about total income amount (AMT) of the transaction charge against time
     * Found and made boxplot to display top 30 items with the most AMTs and top 30 with most sold items
 
-### **Next Steps (Nov 4th-Nov 11th)**:
+### **Next Steps (Nov 4th-Nov 11th):**
 
 * Explore the possibility of linking trnsact to other dataset
 * Find variables with high correlation with return and model Type of Transaction Prediction
 
 ---
 
-### **Updates (Nov 4th-Nov 10rd)：**:
+### **Updates (Nov 4th-Nov 10rd)：**
 * Using the Chi-squared test to test whether discounted items are associated with returns
 * Divided SALEDATE into year, month, and day to make it a better variable.
 * The independent variables are first standardized to reduce the effect of outliers to increase computational efficiency
    * Trained Logistic Regression model . An Accuracy of almost 0.922 and an F-1 score of 0.959 are obtained to verify that each class is still relatively balanced.
    * Trained Random Forest model with hyperparameters number of tree to be 10, 20 instead of default 100, both computing time and accuracy are acceptable
 
-### **Next Steps (Nov 11th-Nov 17th)**:
+### **Next Steps (Nov 11th-Nov 17th):**
 
 * Explore the possibility of linking trnsact to other datasets to observe deeper secret based on the mode we built
 * Try clustering out product categories to explore more possibilities
 
 ---
 
-### **Updates (Nov 11th-Nov 17rd)：**:
+### **Updates (Nov 11th-Nov 17rd)：**
 * Merged trnsact with skstinfo and skuinfo dataset to obtain fully information SKU and STORE
 * Changed data types 
 * Created some feature engineering variables
@@ -102,7 +102,7 @@ Summary Statistics (more):
 * Built training preprocessing pipeline including make StandardScaler for numerical variables and OneHotEncoder for categorical variables
 * Trained logistic regression model to successfully get F1 score 0.96 
 
-### **Next Steps (Nov 18th-Nov 24th)**:
+### **Next Steps (Nov 18th-Nov 24th):**
 * Try clustering out product categories to explore more possibilities
 * Write the end-quarter report to briefly explain potential business phenomenon behind the model 
 
