@@ -89,7 +89,22 @@ Summary Statistics (more):
 * Explore the possibility of linking trnsact to other datasets to observe deeper secret based on the mode we built
 * Try clustering out product categories to explore more possibilities
 
+---
 
+### **Updates (Nov 11th-Nov 17rd)：**:
+* Merged trnsact with skstinfo and skuinfo dataset to obtain fully information SKU and STORE
+* Changed data types 
+* Created some feature engineering variables
+   * Markup percentage columns based on SPRICE and COST to check how many profit rate they made respect to each items
+   * Total number of transactions per SKU, STORE to check if more merchandise defects exist in smaller stores
+   * Created a binary column 'Has_Discount' to indicate the presence of a discount
+* Log transformation of some variables
+* Built training preprocessing pipeline including make StandardScaler for numerical variables and OneHotEncoder for categorical variables
+* Trained logistic regression model to successfully get F1 score 0.96 
+
+### **Next Steps (Nov 18th-Nov 24th)**:
+* Try clustering out product categories to explore more possibilities
+* Write the end-quarter report to briefly explain potential business phenomenon behind the model 
 
 
 
