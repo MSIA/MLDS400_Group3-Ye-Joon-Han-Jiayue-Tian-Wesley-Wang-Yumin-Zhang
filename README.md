@@ -91,7 +91,7 @@ Summary Statistics (more):
 
 ---
 
-### **Updates (Nov 11th-Nov 17rd)：**
+### **Updates (Nov 11th-Nov 17th)：**
 * Merged trnsact with skstinfo and skuinfo dataset to obtain fully information SKU and STORE
 * Changed data types 
 * Created some feature engineering variables
@@ -104,7 +104,19 @@ Summary Statistics (more):
 
 ### **Next Steps (Nov 18th-Nov 24th):**
 * Try clustering out product categories to explore more possibilities
-* Write the end-quarter report to briefly explain potential business phenomenon behind the model 
+* Write the end-quarter report to briefly explain potential business phenomenon behind the model
+
+---
+
+Happy Thanksgiving!
+### **Updates (Nov 18th-Nov 24th):**
+* ROI first draft
+
+### **Next Steps (Nov 25th-Dec 1st):**
+* ROI revision
+* start working on report
+
+
 
 
 
