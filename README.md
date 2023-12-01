@@ -75,6 +75,8 @@ Summary Statistics (more):
 * Explore the possibility of linking trnsact to other datasets
 * Find variables with high correlation with return and model Type of Transaction Prediction
 
+---
+
 ### **Updates Nov 11th-Dec 1st)：**:
 * Merged Trnsact table with other tables and did feature selection
 * Using SMOTe to balance sample data
