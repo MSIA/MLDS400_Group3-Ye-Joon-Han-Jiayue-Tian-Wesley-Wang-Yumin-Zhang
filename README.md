@@ -75,7 +75,15 @@ Summary Statistics (more):
 * Explore the possibility of linking trnsact to other datasets
 * Find variables with high correlation with return and model Type of Transaction Prediction
 
+### **Updates Nov 11th-Dec 1st)：**:
+* Merged Trnsact table with other tables and did feature selection
+* Using SMOTe to balance sample data
+* Trained models again and compared between different models using confusion matrix
+  
+### **Next Steps (Dec 1st-Dec 8th)**:
 
+* See if there are possible ways that we can improve our model
+* Finish writing report, slides and ROI
 
 
 
