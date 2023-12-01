@@ -81,11 +81,12 @@ Summary Statistics (more):
 * Merged Trnsact table with other tables and did feature selection
 * Using SMOTe to balance sample data
 * Trained models again and compared between different models using confusion matrix
+* Finished writing ROI calculation
   
 ### **Next Steps (Dec 1st-Dec 8th)**:
 
 * See if there are possible ways that we can improve our model
-* Finish writing report, slides and ROI
+* Finish writing report, slides 
 
 
 
