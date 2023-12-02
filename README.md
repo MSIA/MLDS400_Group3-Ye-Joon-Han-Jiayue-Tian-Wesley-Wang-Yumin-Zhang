@@ -77,7 +77,7 @@ Summary Statistics (more):
 
 ---
 
-### **Updates Nov 11th-Dec 1st)：**:
+### **Updates Nov 11th-Dec 1st)**:
 * Merged Trnsact table with other tables and did feature selection
 * Using SMOTe to balance sample data
 * Trained models again and compared between different models using confusion matrix
