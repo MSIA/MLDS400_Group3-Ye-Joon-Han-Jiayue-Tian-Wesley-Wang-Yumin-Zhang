@@ -127,7 +127,13 @@ Happy Thanksgiving!
 ### **Next Steps (Dec 1st-Dec 8th)**:
 
 * See if there are possible ways that we can improve our model
-* Finish writing report, slides 
+* Finish writing report, slides
+
+---
+### **Updates (Dec 1st-Dec 8th)**:
+
+* Finished final report and slide
+
 
 
 
